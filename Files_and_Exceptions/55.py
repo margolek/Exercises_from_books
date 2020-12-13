@@ -10,4 +10,8 @@ username.
 
 """
 
-print('Make same changes here')
+import json
+
+def get_stored_username():
+	"""Get stored username if available"""
+	
