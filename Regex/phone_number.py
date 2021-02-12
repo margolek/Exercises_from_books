@@ -9,5 +9,6 @@ def example2():
 	my_pattern = re.compile(r'(\d{2}) (\d{3})')
 	my_number = my_pattern.search('Search number 33 345 in text')
 	print(my_number.group(2))
+	print()
 
 example2()
